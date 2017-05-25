@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>构建简单的MVC框架</title>
+    <script type="text/javascript" src="l.js"></script>
+</head>
+<body>
+<div lhy-controller="lhy" init="{numb:2}">
+    Input : <input type="text" bind="numb">
+    <br/>Span : <span bind="numb"></span>
+</div>
+<script>
+    l.controller("lhy",function($scope){
+        //code ...
+    });
+</script>
+</body>
+</html>
